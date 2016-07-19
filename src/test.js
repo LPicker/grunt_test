@@ -4,4 +4,5 @@
 		a = a + c;		// c 未定义
 		return a + b;	// 没写分号
 	}
+    add(1, 5);
 })(window);
